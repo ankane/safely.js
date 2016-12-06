@@ -14,8 +14,11 @@
   var Safely = {
     env: "development",
     raiseEnvs: ["development", "test"],
+    tag: true,
     reportExceptionMethod: function (e) {
-      e.message = "[safely] " + e.message;
+      if (Safely.tag) {
+        e.message = "[safely] " + e.message;
+      }
       if (window.Rollbar) {
         window.Rollbar.error(e);
       }
