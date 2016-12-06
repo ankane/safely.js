@@ -53,6 +53,10 @@ To report exceptions manually:
 Safely.reportException(e)
 ```
 
+## History
+
+View the [changelog](CHANGELOG.md)
+
 ## Contributing
 
 Everyone is encouraged to help improve this project. Here are a few ways you can help:
