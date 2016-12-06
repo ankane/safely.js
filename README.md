@@ -8,16 +8,10 @@ Exceptions are rescued and automatically reported to your favorite reporting ser
 
 In development and test environments, exceptions are raised so you can fix them.
 
-## Reporting
-
-Reports exceptions to [Rollbar](https://rollbar.com) out of the box.
-
-Customize reporting with:
-
-```javascript
-Safely.reportExceptionMethod = function (e) {
-  // report to your favorite service
-};
+```javscript
+safely( function () {
+  trackEvent("pageview");
+});
 ```
 
 ## Installation
@@ -29,6 +23,18 @@ Download [safely.js](safely.js), include it, and set the environment
 <script>
   Safely.env = "production";
 </script>
+```
+
+## Reporting
+
+Reports exceptions to [Rollbar](https://rollbar.com) out of the box.
+
+Customize reporting with:
+
+```javascript
+Safely.reportExceptionMethod = function (e) {
+  // report to your favorite service
+};
 ```
 
 ## Contributing
