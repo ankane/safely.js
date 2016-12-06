@@ -13,9 +13,7 @@ In development and test environments, exceptions are raised so you can fix them.
 “Oh no, analytics brought down search”
 
 ```javascript
-safely( function () {
-  trackSearch(params)
-})
+safely(trackSearch)
 ```
 
 Also aliases as `yolo`.
