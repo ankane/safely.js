@@ -41,7 +41,7 @@ Safely.reportExceptionMethod = function (e) {
 }
 ```
 
-By default, exception messages are prefixed with [safely]. This makes it easier to spot caught exceptions. Turn this off with:
+By default, exception messages are prefixed with `[safely]`. This makes it easier to spot caught exceptions. Turn this off with:
 
 ```javascript
 Safely.tag = false
