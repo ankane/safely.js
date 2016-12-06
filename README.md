@@ -16,7 +16,7 @@ In development and test environments, exceptions are raised so you can fix them.
 safely(trackSearch)
 ```
 
-Also aliases as `yolo`.
+Also aliased as `yolo`.
 
 ## Installation
 
