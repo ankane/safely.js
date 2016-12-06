@@ -9,6 +9,6 @@
   "authors": [
     "Andrew Kane <andrew@chartkick.com>"
   ],
-  "description": "Rescue and report exceptions in non-critical code",
+  "description": "Catch and report exceptions in non-critical code",
   "license": "MIT"
 }

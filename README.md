@@ -4,7 +4,7 @@
 safely(keepGoingIfThisFunctionFails)
 ```
 
-Exceptions are rescued and automatically reported to your favorite reporting service.
+Exceptions are caught and automatically reported to your favorite reporting service.
 
 In development and test environments, exceptions are raised so you can fix them.
 
@@ -41,7 +41,7 @@ Safely.reportExceptionMethod = function (e) {
 }
 ```
 
-By default, exception messages are prefixed with [safely]. This makes it easier to spot rescued exceptions. Turn this off with:
+By default, exception messages are prefixed with [safely]. This makes it easier to spot caught exceptions. Turn this off with:
 
 ```javascript
 Safely.tag = false

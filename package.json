@@ -2,7 +2,7 @@
   "name": "safely.js",
   "version": "0.1.0",
   "homepage": "https://github.com/ankane/safely.js",
-  "description": "Rescue and report exceptions in non-critical code",
+  "description": "Catch and report exceptions in non-critical code",
   "main": "safely.js",
   "dependencies": {
   },
