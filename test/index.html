@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="../safely.js"></script>
+    <script src="rollbar.js"></script>
+    <script>
+      Safely.env = "production";
+      console.log("0");
+      function boom() {
+        console.log("1");
+        bad();
+      }
+      safely(boom);
+      console.log("2");
+    </script>
+  </head>
+  <body>
+    <p>Check the console</p>
+  </body>
+</html>
