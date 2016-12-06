@@ -15,6 +15,7 @@
     env: "development",
     raiseEnvs: ["development", "test"],
     reportExceptionMethod: function (e) {
+      e.message = "[safely] " + e.message;
       if (window.Rollbar) {
         window.Rollbar.error(e);
       }
