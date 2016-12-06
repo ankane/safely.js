@@ -1,0 +1,14 @@
+{
+  "name": "safely.js",
+  "version": "0.1.0",
+  "main": "safely.js",
+  "ignore": [
+    "**/.*"
+  ],
+  "homepage": "https://github.com/ankane/safely.js",
+  "authors": [
+    "Andrew Kane <andrew@chartkick.com>"
+  ],
+  "description": "Rescue and report exceptions in non-critical code",
+  "license": "MIT"
+}
